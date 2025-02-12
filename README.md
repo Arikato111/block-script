@@ -1,5 +1,3 @@
-<img src="public/128.png" >
-
 # Block script WebExtension
 
 Block script is the extension to block javascript on any website with simple code and requires less permissions. 
