@@ -9,15 +9,7 @@ export default defineConfig({
     description:
       "the extensions to block any scripts on any website with simple code and easy to check source",
 
-    permissions: [
-      "webRequest",
-      "webRequestBlocking",
-
-      // "tabs",
-      // "webNavigation",
-      // "activeTab",
-      // "storage",
-    ],
+    permissions: ["webRequest", "webRequestBlocking"],
     browser_specific_settings: {
       gecko: {
         id: "block-script@Arikato111",
