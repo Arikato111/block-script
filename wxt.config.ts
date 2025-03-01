@@ -3,7 +3,7 @@ import { defineConfig } from "wxt";
 // See https://wxt.dev/api/config.html
 export default defineConfig({
   extensionApi: "chrome",
-  // manifestVersion: 2,
+  manifestVersion: 2,
   manifest: {
     name: "block script",
     description:
